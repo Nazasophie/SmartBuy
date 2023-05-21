@@ -1,0 +1,158 @@
+
+ /* Styling for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f80ed;
+    font-family: Arial, sans-serif;
+  }
+
+  .sign img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+  /* Styling for the sign in container */
+  .sign {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      
+
+}
+  
+  /* Styling for the sign in text */
+  .sign p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the form */
+  .sign form {
+    margin-top: 20px;
+    
+  }
+  
+  /* Styling for the form labels */
+  .sign label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+
+  
+  /* Styling for the form inputs */
+  .sign input[type="text"], 
+  .sign input[type="password"]
+  .sign input[type="submit"],
+  .sign input[type="button"]
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+    position: relative;
+
+    /*box shadow for email and password input*/
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+  
+  /* Styling for the forgot password link */
+  
+
+  .sign a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2f80ed;
+    text-decoration: none;
+    line-height: 22px;
+    
+  }
+  
+  .sign a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: pink; 
+    border: 1px solid blue;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  
+  /* Styling for the sign in(submit) button */
+  .sign input[type="submit"] {
+    background-color: #039be5;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    line-height: 28.13px;
+  
+  }
+  
+  .sign input[type="submit"]:hover {
+    background-color: skyblue;
+  }
+
+
+  
+  /* Styling for the social media buttons */
+  .sign input[type="button"] {
+    background-color:#039be5 ;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 28px;
+  }
+  
+  .sign input[type="button"]:hover {
+    border-color: #999;
+  }
+
+  .sign input[value="Google"] {
+    background-color: white;
+    color:black ;
+  }
+  
+  
+  /* Styling for the sign up link */
+  .sign p:last-child {
+    margin-top: 20px;
+    text-align: center;
+  }
+  p{
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 23.44px
+  }
+  
+  .sign p:last-child a {
+    color: #1860a3;
+    text-decoration: none;
+  }
+  
+  .sign p:last-child a:hover {
+    text-decoration: underline;
+  }
