@@ -8,17 +8,29 @@ body {
   
   /* Styling for the sign in container */
   .sign {
-    max-width: 400px;
-    margin: 100px auto;
+    max-width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10px;
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
+.img-div {
+  display: flex;
+  justify-content: center;
+} 
+  .logo-img {
+    width: 209px;
+    height: 40px;
+  }
   /* Styling for the sign in text */
-  .sign p {
-    font-size: 24px;
+  .sign-in {
+    margin-top: 5px;
+    font-size: 32px;
+    font-family: Roboto;
     font-weight: bold;
     text-align: center;
   }
@@ -34,12 +46,30 @@ body {
     margin-bottom: 5px;
   }
 
+   /* styling for input box */
+  .email-div {
+    display: flex;
+    justify-content: center;
+  }
+  .lab1{
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  .pas-div {
+    display: flex;
+    justify-content: center;
+  }
+  .lab2{
+    font-size: 16px;
+    margin-left: 50px;
+  }
 
   
   /* Styling for the form inputs */
   .sign input[type="text"],
   .sign input[type="password"] {
-    width: 100%;
+    width: 378px;
+    height: 30px;
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 8px;
@@ -50,10 +80,17 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
 
+  input[type=text]:focus {
+    border: 4px solid #039be5;
+  }
 
   
   /* Styling for the forgot password link */
   
+.forgot-div {
+  margin-top: -30px;
+  text-align: center;
+}
 
   .sign a {
     font-size: 14px;
@@ -61,18 +98,19 @@ body {
     color: #2f80ed;
     text-decoration: none;
     line-height: 22px;
-    
+    margin: -100px -290px 0px 0px;
   }
   
   .sign a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: red;
-    background-color: pink; 
-    border: 1px solid blue;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
   }
   
-
+.submit-div {
+  display: flex;
+  justify-content: center;
+}
   
   /* Styling for the sign in(submit) button */
   .sign input[type="submit"] {
@@ -84,11 +122,15 @@ body {
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    width: 100%;
+    width: 400px;
     line-height: 28.13px;
-  
   }
   
+
+  .sign-in-using {
+    font-size: 20px;
+    text-align: center;
+  }
   .sign input[type="submit"]:hover {
     background-color: skyblue;
   }
@@ -105,7 +147,7 @@ body {
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    width: 100%;
+    width: 400px;
     margin-bottom: 15px;
     line-height: 28px;
   }
@@ -119,38 +161,22 @@ body {
     color:black ;
   }
   
-  
-  /* Styling for the sign up link */
-  .sign p:last-child {
-    margin-top: 20px;
-    text-align: center;
+  .google {
+    margin-top: -20px;
   }
-  p{
-  font-weight: 400px;
-  font-size: 20px;
-  line-height: 23.44px
+
+  /* Styling for the sign up link */
+
+  .sign .dont-have-acct{
+    /* text-align: right; */
+    margin: -20px 0px 0px 140px;
   }
   
   .sign p:last-child a {
     color: #1860a3;
     text-decoration: none;
   }
-  
-  .sign p:last-child a:hover {
-    text-decoration: underline;
-  }
 
-  This CSS code adds styling to the sign 
-  in form by setting the background color 
-  of the page to a light gray color and
-   the font family to Arial, sans-serif.
-  The container for the form has a maximum width of 400 pixels,
-  is centered on the page with a margin of 100 pixels on the top and bottom,
-  has a white background, padding, and a box shadow. 
-  The sign-in text is centered and has a font size of 24 pixels
-   and a bold weight. The form has a margin on top of 20 pixels, 
-   and the labels for the email and password inputs have a display of block
-    and a margin-bottom of 5 pixels. The email and password inputs have a width of 100%, padding, margin-bottom, a border-radius
-  
+
   
   
