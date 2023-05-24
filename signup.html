@@ -11,40 +11,53 @@
 
     <div>
         <div class="sign">
-            <img src="" alt="">
-          <p>Sign Up</p>  
+            <div class="img-div">
+            <img src="images/SMARTbuylogo.svg" alt="">
+            </div>
+          <p class="sign-in">Sign Up</p>  
           <form>
             <div>
-                <label>First Name</label>
+                <label class="lab1">First Name</label>
+                <div class="email-div">
                 <input type="text" placeholder="Chinaza">
+                </div>
             </div>
             <div>
-                <label>Last Name</label>
+                <label class="lab1">Last Name</label>
+                <div class="email-div">
                 <input type="text" placeholder="Sunday" id="password-input" >
-                <label for="password-input" class="password-toggle"></label>
+                </div>
+                <!-- <label for="password-input" class="password-toggle"></label> -->
             </div>
 
             <div>
-                <label>Email</label>
+                <label class="lab1">Email</label>
+                <div class="email-div">
                 <input type="text" placeholder="example@gmail.com">
+                </div>
             </div>
 
             <div>
-                <label>Password</label>
+                <label class="lab1">Password</label>
+                <div class="email-div">
                 <input type="text" placeholder="Enter password">
+                </div>
             </div>
-    
-            
-             
-            <p><a href="#">Forgot Password?</a></p>
+
+            <div class="submit-div">
             <input type="submit" value="Sign In">
-        
+            </div>
           </form>
-          <p>Or Sign in using</p>
-          <input type="button" value="FaceBook">
-    
-          <p><input type="button" value="Google"></p>
-          <p>Dont have an account? <a href="#">Sign Up</a></p>
+          <p class="sign-in-using">Or Sign in using</p>
+          <div class="submit-div">
+            <button><img src="images/facebook.svg" alt="">Facebook</button>
+          <!-- <input type="button" value="FaceBook"> -->
+          </div>
+          <div class="submit-div google">
+          <!-- <p><input type="button" value="Google"></p> -->
+          <button class="google-button"><img src="images/Google.svg" alt="">Google</button>
+          </div>
+          <p class="dont-have-acct">Don't have an account? <a href="signin.html">Sign In</a></p>
     
         </div>
     </div>
