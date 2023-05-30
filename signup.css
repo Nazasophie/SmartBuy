@@ -19,9 +19,9 @@ body {
 }
 
 .img-div {
-display: flex;
-justify-content: center;
-} 
+  display: flex;
+  justify-content: center;
+}
 .logo-img {
   width: 209px;
   height: 40px;
@@ -46,12 +46,12 @@ justify-content: center;
   margin-bottom: 5px;
 }
 
- /* styling for input box */
+/* styling for input box */
 .email-div {
   display: flex;
   justify-content: center;
 }
-.lab1{
+.lab1 {
   font-size: 16px;
   margin-left: 50px;
 }
@@ -59,11 +59,10 @@ justify-content: center;
   display: flex;
   justify-content: center;
 }
-.lab2{
+.lab2 {
   font-size: 16px;
   margin-left: 50px;
 }
-
 
 /* Styling for the form inputs */
 .sign input[type="text"],
@@ -80,10 +79,9 @@ justify-content: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   border: 4px solid #039be5;
 }
-
 
 .sign a {
   font-size: 14px;
@@ -101,8 +99,8 @@ input[type=text]:focus {
 }
 
 .submit-div {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Styling for the sign in(submit) button */
@@ -119,7 +117,6 @@ justify-content: center;
   line-height: 28.13px;
 }
 
-
 .sign-in-using {
   font-size: 20px;
   text-align: center;
@@ -128,11 +125,9 @@ justify-content: center;
   background-color: skyblue;
 }
 
-
-
 /* Styling for the social media buttons */
 button {
-  background-color:#039be5 ;
+  background-color: #039be5;
   color: #fff;
   border: 1px solid #ccc;
   padding: 10px 15px;
@@ -165,13 +160,12 @@ button img {
 
 .sign input[value="Google"] {
   background-color: white;
-  color:black ;
+  color: black;
 }
-
 
 /* Styling for the sign up link */
 
-.sign .dont-have-acct{
+.sign .dont-have-acct {
   /* text-align: right; */
   margin: 0px 0px 0px 140px;
 }
