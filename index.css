@@ -231,10 +231,39 @@ main .second-div-0 .div-1 p {
     background-color: rgb(216, 123, 30);
 }
 
+
 .checked {
     color: orange;
 }
 /* Top selling item style end */
+.forth-cont{
+    width: 1200px;
+    height: 644px;
+    background-color: #EEEEEE;
+    margin-bottom:20px ;
+    border-radius: 8px;
+}
+
+.forth-cont h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.forth-cont p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.forth-cont .images{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 0px 30px;
+}
+
+.forth-cont .images div{
+    margin-bottom: -20px;
+}
+
+
 /* main style end */
 
 
