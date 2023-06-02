@@ -10,6 +10,7 @@
       type="text/css"
     />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/d08bc766f2.js" crossorigin="anonymous"></script>
     <title>SmartBuy</title>
   </head>
   <body>
@@ -19,81 +20,177 @@
       </div>
       <div class="search-div">
         <img src="images/search-icon.svg" alt="" /><input
-          type="text"
+          type="search"
           name=""
           id=""
           placeholder="Search"
         />
       </div>
       <div class="links-div">
-        <div>
-          <a href=""><img src="images/profile.svg" alt="" />Account</a>
+        <div class="dropdown">
+          <a href="" ><img class="acct" src="images/profile.svg" alt="" />Account <img class="acct" src="images/drop-down.svg" alt=""></a>
+          <div class="dropdown-content">
+            <a href=""><img class="acct-img" src="images/User.svg" alt="">My Account</a>
+            <a href=""><img class="acct-img" src="images/Sign In.svg" alt=""> Sign In</a>
+            <a href=""><img class="acct-img" src="images/Add User Male.svg" alt=""> Sign Up</a>
+            <a href=""><img class="acct-img" src="images/Add Shopping Cart.svg" alt=""> Orders</a>
+          </div>
         </div>
-        <div>
-          <a href=""><img src="images/message-question.svg" alt="" />Help</a>
+        <div class="dropdown">
+          <a href=""><img class="acct" src="images/message-question.svg" alt="" />Help <img class="acct" src="images/drop-down.svg" alt=""></a>
+          <div class="dropdown-content">
+            <a href="">FAQ</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
         </div>
         <div>
           <a href=""><img src="images/saved.svg" alt="" />Saved</a>
         </div>
-        <div>
+        <div class="cart-div">
           <a href=""><img src="images/shopping-cart.svg" alt="" />Cart</a>
+          <p class="cart-total">0</p>
         </div>
       </div>
     </header>
 
     <nav>
       <p>Categories</p>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Fasion<img class="fash" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Elrctronics<img class="elect" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Phone & Tablet<img
             class="phone-tab"
             src="images/drop-down.svg"
             alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Phone Accessories<img
             class="phone-acc"
             src="images/drop-down.svg"
             alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Computing<img class="com" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Gaming<img class="gam" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Health & Beauty<img class="h-b" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
-      <div>
+      <div class="dropdown-categories">
         <a href="#"
           >Other<img class="other" src="images/drop-down.svg" alt=""
         /></a>
+        <div class="dropdown-content-categories">
+          <a href="">My Account</a>
+          <a href="">Sign In</a>
+          <a href="">Sign Up</a>
+          <a href="">Orders</a>
+        </div>
       </div>
     </nav>
 
-    <aside>
-      <img src="images/slide-0.png" alt="" />
+    <!-- Sliding images start -->
+    <aside class="slider">
+      <div class="slides">
+        <!-- radio button start -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!-- radio button ends -->
+
+        <!-- slide images start -->
+        <div class="slide first">
+          <img src="images/slide-0.png" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="images/slide-1.png" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="images/slide-2.png" alt="" />
+        </div>
+        <!-- slide images start -->
+        <!-- automatic navigation starts -->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+        <!-- automatic navigation ends -->
+      </div>
+      <!-- manual navigation starts -->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+      <!-- manual navigation ends -->
     </aside>
+    <!-- Sliding images start -->
 
     <main>
       <div class="first-cont">
@@ -167,9 +264,11 @@
 
         <div class="third-0">
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -179,9 +278,11 @@
           </div>
 
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -191,9 +292,11 @@
           </div>
 
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -203,9 +306,11 @@
           </div>
           
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -216,9 +321,11 @@
         </div>
         <div class="third-0">
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -228,9 +335,11 @@
           </div>
 
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -240,9 +349,11 @@
           </div>
 
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -252,9 +363,11 @@
           </div>
           
           <div class="item-0">
+            <a href="">
             <img class="item-img-0" src="images/oraimo.png" alt="">
             <p class="item-description-p">Oraimo FreePods 3 TWS True Wireless Stereo Earbuds</p>
             <p class="amount-p"><img src="images/naira.svg" alt=""> 5,000.00</p>
+            </a>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -325,8 +438,145 @@
             </div>
           </div>
       </div>
+
+      <div class="fifth-cont">
+        <h1>TOP SELLING GATEGORIES</h1>
+        <p class="p-0">Shop from our top selling categories of the week</p>
+
+        <div class="fifth-div-0">
+          <div class="fifth-item-0">
+            <img src="images/gaming 1.png" alt="">
+            <h2><span class="new">New</span><br>Gaming</h2>
+            <button>Browse</button>
+          </div>
+          <div class="fifth-item-1">
+            <img src="images/phone acc 1.png" alt="">
+            <h2><span class="new">New</span><br>Mobile <br>Accessories</h2>
+            <button>Browse</button>
+          </div>
+          <div class="fifth-item-2">
+            <img src="images/fashion.png" alt="">
+            <h2><span class="new">Classy</span><br>Fashion</h2>
+            <button>Browse</button>
+          </div>
+        </div>
+
+        <div class="sixth-cont">
+          <div class="sixth-div-0">
+            <div class="sixth-item-0">
+              <img src="images/computing 1.png" alt="">
+              <h2><span class="new">New</span><br>computing</h2>
+              <button>Browse</button>
+            </div>
+            <div class="sixth-item-1">
+              <img src="images/food 1.png" alt="">
+              <h2><span class="new">New</span><br>Food</h2>
+              <button>Browse</button>
+            </div>
+            <div class="sixth-item-2">
+              <img src="images/skin-care_260x144 1.png" alt="">
+              <h2><span class="new">New</span><br>Health & <br>Beauty</h2>
+              <button>Browse</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      
+      <article>
+        <h2>SMARTbuy - Your Safest Online Shopping Website</h2>
+        <br>
+        <h5>Shop From SMARTBUY And Any Seller Around Nigeria Without The Fear Of Getting Scammed</h5> <br>
+        <p>Online shopping is growing everyday and most people now prefer to buy goods online, well who doesn’t like the idea of being able to buy everything you need without moving <br>
+          an inch. But scammers are using this to their advantage, in a situation where you make payment for a product and the seller refuse to send the product to you. This is the <br>
+          problem SMARTBUY is here to solve. </p>
+          <br>
+          <br>
+        <h5>How Can We Help You Avoid Getting Scammed?</h5><br>
+        <p>In some online shopping platform, you are always advised to meet the seller and see the product before making payment, but this can be an issue when the seller is in another <br>
+          state. This can limit buyers to only buy from sellers close to them. <br>
+          But with <strong>SMARTBUY</strong> you can buy from any seller around Nigeria by using our <strong>MIDDLE MAN</strong> service. <strong>MIDDLE MAN</strong> service offers you the opportunity for <strong>SMARTBUY</strong> to <br>
+          hold your money until you receive your product and confirm that the product is in good condition and the money will be released to the seller. With our fast delivery service <br>
+          the buyer is sure to receive the product in a short period of time and the seller is sure to receive the payment within a short period. </p>
+          <br>
+          <br>
+        <h5>Shop From A Wide Range Of Product</h5><br>
+        <p>With the wide range of product available you are sure to find the product you are looking for, whether it’s electronic, clothing or gaming product and you can shop without <br>
+          the fear of getting scammed.</p>
+          <br>
+          <br>
+        <h5>Available Payment Method On SMARTBUY </h5><br>
+        <ul>
+          <li>MasterCard</li>
+          <li>VISA</li>
+          <li>Pay On Delivery</li>
+        </ul>
+      </article>
+
+      <!-- Subscribe to Newsletter start -->
+      <div class="subscribe-div">
+        <a href="index.html"><img src="images/SMARTbuylogo.svg" alt=""></a>
+
+        <div class="subscribe-div-0">
+          <h4>NEW TO SMARTbuy?</h4>
+          <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+          <div class="subscribe-div-1">
+            <img src="images/sms.svg" alt="">
+            <input type="search" name="" id="" placeholder="Email">
+            <button>SUBSCRIBE</button>
+           </div>
+        </div>
+      </div>
+
+      <!-- Subscribe to Newsletter end -->
+      
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-div-0">
+        <h4>CONTACT SMARTBUY</h4>
+
+        <div>
+          <a href="">Contact Us</a><br>
+          <a href="">Help Center</a><br>
+          <a href="">How To Shop On Smartbuy</a><br>
+        
+          <a href="">Delivery Options</a><br>
+          <a href="">Dispute Resolution Policy</a><br>
+          <a href="">How To Shop On Smartbuy</a><br>
+        </div>
+      </div>
+      <div class="footer-div-1">
+        <h4>ABOUT SMARTBUY </h4>
+
+        <div>
+          <a href="">About Us</a><br>
+          <a href="">Terms and Conditionsr</a><br>
+          <a href="">Privacy Notice</a><br>
+          <a href="">Cookie Notice </a><br>
+          <a href="">Middle Man</a><br>
+          <a href="">Delivery</a><br>
+        </div>
+      </div>
+      <div class="footer-div-2">
+        <h4>PAYMENT METHODS</h4>
+
+        <div>
+          <a href=""><img src="images/tabler_brand-visa.svg" alt=""></a><br>
+          <a href=""><img src="images/uim_master-card.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-div-3">
+        <h4>CONTACT SMARTBUY</h4>
+
+        <div>
+          <a href=""><img src="images/akar-icons_twitter-fill.svg" alt=""></a>
+          <a href=""><img src="images/ri_facebook-fill.svg" alt=""></a>
+          <a href=""><img src="images/basil_instagram-solid.svg" alt=""></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
