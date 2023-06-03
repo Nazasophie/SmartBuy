@@ -19,8 +19,9 @@ body {
 }
 
 .img-div {
-  display: flex;
-  justify-content: center;
+  margin: -20px 0px -10px 0px;
+  width: 45%;
+  text-align: center;
 }
 .logo-img {
   width: 209px;

@@ -1,8 +1,8 @@
-var counter = 1;
+var counter = 2;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
     counter++;
     if(counter > 3){
         counter = 1;
     }
-}, 5000);
+}, 7000);
