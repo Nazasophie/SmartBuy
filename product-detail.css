@@ -113,15 +113,7 @@ header .links-div div a {
     top: -20px;
     left: -10px;
 }
-
-.star-div{
-    margin-top:150px ;
-}
-.checked{
-color: yellow;
-}
-
-
+/* Display product stayle start */
 .contain{
     display: flex;
     background-color: #d9d9d9 ;
@@ -137,9 +129,21 @@ color: yellow;
 .div-content{
     margin-left: 28px ;
 }
+.star-div{
+    margin-top:90px ;
+    display: flex;
+}
+.star-div .start-div-2{
+    margin:-16px 0px 0px 10px;
+}
+
+.checked{
+color: yellow;
+}
+
 
 .price-div {
-margin-top:20px;
+margin-top:0px;
 }
 
 strong{
@@ -161,7 +165,11 @@ strong{
     font-style: bold;
     font-size: 14px;
     font-weight: 700;
-
+    margin-top: 60px;
+    cursor: pointer;
+}
+.a-t-c:hover{
+    background-color: #e78834;
 }
 
 .s-i{
@@ -174,7 +182,19 @@ strong{
     font-size: 14px;
     font-weight: 700;
     margin-left: 20px;
+    position: relative;
+    cursor: pointer;
 }
+.s-i:hover{
+    color: #F2994A;
+    border: 2px #F2994A solid;
+}
+.s-i img{
+    position: absolute;
+    left: 60px;
+}
+
+/* Display product stayle end */
 
 /* footer style start */
 footer {
