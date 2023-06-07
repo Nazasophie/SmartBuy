@@ -1,18 +1,23 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    /* text-align: center; */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
 
 header {
-    grid-area: header;
-    width: 1180px;
+    margin: auto;
+    width: 1200px;
     height: 80px;
     display: flex;
     align-items: center;
     background-color: #EEEEEE;
     padding: 0px 20px 0px 20px;
-    margin: auto;
 }
 
 header .logo-div a img {
@@ -119,101 +124,22 @@ header .links-div div a {
     top: -20px;
     left: -10px;
 }
-/* Display product stayle start */
-.contain{
-    display: flex;
-    background-color: #d9d9d9 ;
-    width: 1200px;
-    height: 432px;
-    border-radius: 8px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0px 80px 0px 100px;
-}
-
-.div-content{
-    margin-left: 28px ;
-}
-.div-content h2{
-    margin: 20px 0px 20px 0px;
-}
-.star-div{
-    margin-top: 90px ;
-    display: flex;
-}
-.star-div .start-div-2{
-    margin:1px 0px 0px 10px;
-}
-
-.checked{
-color: yellow;
-}
 
 
-.price-div {
-margin-top:10px;
-}
-
-strong{
-    font-size: 32px;
-    font-weight: 700px;
-}
-
-.price-div strong img{
-    width: 25px;
-}
-
-.a-t-c{
-    width: 307px; 
-    height: 55px;
-    border: 0px; 
-    background-color:#F2994A ; 
-    border-radius: 8px;
-    color: #fff;
-    font-style: bold;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 70px;
-    cursor: pointer;
-}
-.a-t-c:hover{
-    background-color: #e78834;
-}
-
-.s-i{
-    width: 307px; 
-    height: 55px;
-    border: 1px #000000 solid;  
-    border-radius: 8px;
-    color: #000;
-    font-style: bold;
-    font-size: 14px;
-    font-weight: 700;
-    margin-left: 20px;
-    position: relative;
-    cursor: pointer;
-}
-.s-i:hover{
-    color: #F2994A;
-    border: 2px #F2994A solid;
-}
-.s-i img{
-    position: absolute;
-    left: 60px;
-}
-
-/* Display product stayle end */
+/* main {
+    min-height: 60vh;
+} */
 
 /* footer style start */
 footer {
+    /* display: flex; */
+    /* flex: 1; */
+    margin: auto;
     width: 1200px;
     height: 272px;
-    grid-area: footer;
     background-color: #282828;
     color: #FFFFFF;
     display: flex;
-    margin: auto;
 }
 footer .footer-div-0 {
     margin: 40px 0px 0px 50px;
@@ -265,5 +191,4 @@ footer .footer-div-3 div a img:hover{
 
 
 /* footer style end */
-
 
