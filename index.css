@@ -5,15 +5,14 @@
 }
 
 body {
-    /* padding: 0px 120px 0px 120px; */
     max-width: 1200px;
     margin: auto;
-   
 }
 
 .nav-aside {
     display: flex;
-    margin-bottom: 90px;
+    margin-top: 70px;
+    margin-left: -20px;
 }
 
 /* nav style start */
@@ -21,7 +20,7 @@ nav {
     width: 307px;
     background-color: #EEEEEE;
     height: 540px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-top: 10px;
 }
 
@@ -117,7 +116,7 @@ nav div .other {
 /* aside style start */
 aside {
     width: 893px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* background-color: black; */
 }
 aside img {
@@ -569,12 +568,12 @@ article li{
 /* subscribe style start */
 
 .subscribe-div {
-    width: 1220px;
+    width: 1200px;
     height: 184px;
     background-color: #D9D9D9;
     border-radius: 8px 8px 0px 0px;
     display: flex;
-    margin-left: -20px;
+    margin-left: -40px;
 }
 .subscribe-div a {
     margin: 20px 0px 0px 20px;
