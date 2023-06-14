@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url("https://images.crowdspring.comcommerce-edited1.jpg") ;
+    background-image: url("") ;
     
     background-position: center;
     background-size: cover;
@@ -163,13 +163,13 @@ body {
 }
 /* Top selling item style end */
 
-.box{
+.box {
   background-color:rgb(135, 306,235,0.5);
   border-radius: 8px;
   margin: 50px 50px 40px 50px;
   width: 1300px;
-  height: 940px;
-  padding: 20px; 
+  height: 740px;
+  padding: 30px; 
 }
 
 .story{
@@ -178,6 +178,7 @@ body {
   font-family: Arial;
   color: purple ;
   font-size: large;
+  
   
 }
 
@@ -189,9 +190,9 @@ body {
 
 
   .image{
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    margin-top: 0px;
+    width: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 3px solid hotpink;
     transition: all.5s;
@@ -202,6 +203,62 @@ body {
 
 .teamembers{
   display: flex;
-  margin-left: 200px;
+  margin: auto;
   justify-content: space-evenly;
 }
+
+.box p{
+text-align: center;
+font-weight: bold;
+}
+
+/*media Queries*/
+@media (max-width: 960px){
+  body{
+      background: forestgreen;
+  }
+  p{
+      color: fuchsia;
+  }
+  .wrap{
+      min-height: 100vh;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  body{
+      background: purple;
+  }
+  }
+  @media ( min-width: 481px) and (max-width:700px){
+      body{
+          background: yellow;
+      }
+      p{
+          color: red;
+    }
+  }
+
+  /*css for small screens (eg smartphones) */
+  @media screen and (max-width: 767px) {
+    /* css rules for small screenss go here*/
+  }
+
+  /*css for medium screens (eg tablet) */
+  @media screen and (min-width: 769px)  and (max-width: 1023px) {
+    /* css rules for medium screenss go here*/
+  }
+
+  /*css for large screens (eg desktops) */
+  @media screen and (min-width: 1024px) {
+    /* css rules for large screenss go here*/
+  }
+
+
+    
+  
+  
+
+
