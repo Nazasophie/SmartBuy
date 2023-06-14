@@ -1,0 +1,207 @@
+/* CSS styles go here */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.crowdspring.comcommerce-edited1.jpg") ;
+    
+    background-position: center;
+    background-size: cover;
+
+  }
+  .page-container{
+    text-align: center;
+  }
+  
+  .header {
+    width: 1180px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding: 0px 30px 0px 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .header nav a {
+    justify-content: space-between ;
+    
+  }
+
+  
+/* sliding images style start */
+.slides {
+    display: flex;
+    overflow: hidden;
+    margin: 100px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 700px;
+    transition: 2s;
+}
+
+ .slide img {
+    width: 890px;
+    height: 500px;
+}  
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+
+
+/* sliding images style end */
+/* aside style end */
+
+.container{
+    text-align: center;
+}
+  .product{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+  }
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    margin-bottom:auto;
+    text-decoration: none;
+    border-radius: 12px 20px 18px 1px;
+}
+
+/* Top selling item style start */
+
+.top{
+  margin-top: -20px;
+ 
+}
+
+.third-cont {
+  background-color:skyblue;
+  border-radius: 8px;
+  margin: 50px 50px 40px 50px;
+  width: 1300px;
+  height: 940px;
+  padding: 20px;
+  
+}
+.third-cont h1 {
+  text-align: center;
+  padding-top: 10px;
+  
+}
+.third-cont .third-0 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.third-cont .item-0 {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 430px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 8px;
+  padding: 0px 10px 0px 0px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.third-cont .third-0 .item-img-0 {
+  width: 252px;
+  height: 250px;
+}
+.third-cont .third-0 .item-description-p {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  margin-left:30px ;
+}
+.third-cont .third-0 button {
+  width: 70%;
+  height: 43.28px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: #F2994A;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top:10px ;
+}
+.third-cont .third-0 button:hover {
+  background-color: rgb(216, 123, 30);
+}
+
+.amount-p{
+  margin-left: 10px;
+}
+
+
+.checked {
+  color: orange;
+  margin-left:5px ;
+}
+/* Top selling item style end */
+
+.box{
+  background-color:rgb(135, 306,235,0.5);
+  border-radius: 8px;
+  margin: 50px 50px 40px 50px;
+  width: 1300px;
+  height: 940px;
+  padding: 20px; 
+}
+
+.story{
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial;
+  color: purple ;
+  font-size: large;
+  
+}
+
+.box h2{
+  text-align: center;
+  color: green;
+}
+
+
+
+  .image{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid hotpink;
+    transition: all.5s;
+}
+.image:hover{
+    transform: scale(1.2) rotate(360deg);
+}
+
+.teamembers{
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-evenly;
+}
